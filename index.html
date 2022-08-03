@@ -4,34 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Admin Dashboard</title>
 </head>
 <body>
-    <nav class="sidebar">
-        <div id="nav-logo">
-            <i class="nav-logo-image">Logo</i>
+    <nav id="sidebar">
+        <div id="nav-logo" class="menu-item-container">
+            <i class="nav-logo-icon"><img src="./assets/view-dashboard-outline.svg" alt="dashboard logo"></i>
             <span class="nav-logo-text">Dashboard</span>
         </div>
-        <div id="nav-menu">
-            <ul>
-                <li class="nav-menu-item">Home</li>
-                <li class="nav-menu-item">Profile</li>
-                <li class="nav-menu-item">Messages</li>
-                <li class="nav-menu-item">History</li>
-                <li class="nav-menu-item">Tasks</li>
-                <li class="nav-menu-item">Communities</li>
+        <div id="nav-menus">
+            <ul class="nav-menu">
+                <li class="menu-item-container">
+                    <img class="nav-menu-item-icon" src="./assets/home.svg" alt="home">
+                    <span>Home</span>
+                </li>
+                <li class="menu-item-container">
+                    <img class="nav-menu-item-icon" src="./assets/card-account-details-outline.svg" alt="profile">
+                    Profile
+                </li>
+                <li class="menu-item-container">
+                    <img class="nav-menu-item-icon" src="./assets/message-reply.svg" alt="messages">
+                    Messages
+                </li>
+                <li class="menu-item-container">
+                    <img class="nav-menu-item-icon" src="./assets/clock-time-three.svg" alt="history">
+                    History
+                </li>
+                <li class="menu-item-container">
+                    <img class="nav-menu-item-icon" src="./assets/note-multiple.svg" alt="tasks">
+                    Tasks
+                </li>
+                <li class="menu-item-container">
+                    <img src="./assets/account-group.svg" alt="communities" class="nav-menu-item-icon">
+                    Communities
+                </li>
             </ul>
 
-            <ul>
-                <li class="nav-menu-item">Settings</li>
-                <li class="nav-menu-item">Support</li>
-                <li class="nav-menu-item">Privacy</li>
+            <ul class="nav-menu">
+                <li class="menu-item-container">
+                    <img src="./assets/cog.svg" alt="settings" class="nav-menu-item-icon">
+                    Settings
+                </li>
+                <li class="menu-item-container">
+                    <img src="./assets/help-box.svg" alt="support" class="nav-menu-item-icon">
+                    Support
+                </li>
+                <li class="menu-item-container">
+                    <img src="./assets/shield-check.svg" alt="privacy" class="nav-menu-item-icon">
+                    Privacy
+                </li>
             </ul>
         </div>
     </nav>
     
-    <div class="main">
+    <div id="main">
         <div id="header">
             <div id="search">
                 <i class="search-icon">Search</i>
