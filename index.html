@@ -63,26 +63,30 @@
     
     <div id="main">
         <div id="header">
-            <div id="search">
-                <i class="search-icon">Search</i>
-                <input type="text">
+            <div id="header-quick-actions">
+                <div id="search">
+                    <img class="normal-icon" src="./assets/magnify.svg" alt="search icon">
+                    <input id="search-box" type="text">
+                </div>
+                <div id="member-info">
+                    <img src="./assets/bell-ring-outline.svg" alt="notifications" class="normal-icon">
+                    <img src="./assets/account-circle.svg" alt="account" class="avatar-small">
+                    <span id="member-name">Morgan Oakley</span>
+                </div>
             </div>
-            <div id="member-info">
-                <i class="notifications">Messages(6)</i>
-                <i class="avatar">Avatar</i>
-                <span class="memeber-name">Morgan Oakley</span>
-            </div>
-            <div id="member-greeting">
-                <i class="avatar">Avatar</i>
-                <span class="greeting-message">Hi there,</span>
-                <span class="member-name">Morgan Oakley</span><span class="member-twitter-handle"> (@morgan)</span>
-            </div>
-            <div id="member-functions">
-                <ul>
-                    <li class="member-function">New</li>
-                    <li class="member-function">Upload</li>
-                    <li class="member-function">Share</li>
-                </ul>
+            <div id="header-actions">
+                <div id="member-greeting">
+                    <i class="avatar-large"><img src="./assets/account-circle.svg" alt="account"></i>
+                    <span id="member-greeting-message">Hi there,</span>
+                    <span id="member-greeting-name">Morgan Oakley (@morgan)</span>
+               </div>
+                <div id="member-functions">
+                    <ul>
+                        <li class="member-function">New</li>
+                        <li class="member-function">Upload</li>
+                        <li class="member-function">Share</li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div id="content">
